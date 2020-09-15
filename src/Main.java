@@ -1,11 +1,34 @@
 public class Main {
 
     public static void main(String[] args) {
+        //Lesson01
         System.out.println("Hello World!");
 
+        //checkLesson3();
+        //checkLesson4_Q1();
+        //checkLesson4_Q2();
         //checkLesson5_Q1();
         //checkLesson5_Q2();
     }
+
+    public static void checkLesson3()
+    {
+        Lesson03 lesson03 = new Lesson03();
+        lesson03.HowOldAreYou();
+    }
+
+    public static void checkLesson4_Q1()
+    {
+        Lesson04 lesson04 = new Lesson04();
+        lesson04.using_for_loop();
+    }
+
+    public static void checkLesson4_Q2()
+    {
+        Lesson04 lesson04 = new Lesson04();
+        lesson04.using_while_loop();
+    }
+
 
     public static void checkLesson5_Q1()
     {
