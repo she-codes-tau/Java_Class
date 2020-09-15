@@ -16,12 +16,10 @@ public class Lesson04 {
     {
         int num = 1024; //define the parameter with the number 1024
 
-        while(num>1) // we want to run this loop until we get 1 from dividing by 2
+        while(num>1) // we want to run this loop until we get 1 from dividing num by 2
         {
             num = num / 2; //num will now be last num divided by 2
             System.out.println(num); //print result
         }
-
-        System.out.println(num); //print last result, making sure it is 1
     }
 }
