@@ -2,11 +2,16 @@ public class Main {
 
     public static void main(String[] args) {
         //Lesson01
-        //System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println(" "); //just printing another row for fun :)
 
         //checkLesson3();
+
         //checkLesson4_Q1();
         //checkLesson4_Q2();
+        //checkLesson4_Q3();
+        //checkLesson4_Q4();
+
         //checkLesson5_Q1();
         //checkLesson5_Q2();
     }
@@ -27,6 +32,19 @@ public class Main {
     {
         Lesson04 lesson04 = new Lesson04();
         lesson04.using_while_loop();
+    }
+
+    public static void checkLesson4_Q3()
+    {
+        Lesson04 lesson04 = new Lesson04();
+        int ShaniAge = 26, ShakedAge = 23;
+        lesson04.whoIsOlder(ShaniAge, ShakedAge); //play with the order of names or with the ages for different results
+    }
+
+    public static void checkLesson4_Q4()
+    {
+        Lesson04 lesson04 = new Lesson04();
+        lesson04.forLoopWithDebug();
     }
 
 

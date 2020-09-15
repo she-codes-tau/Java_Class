@@ -22,4 +22,25 @@ public class Lesson04 {
             System.out.println(num); //print result
         }
     }
+
+    public void whoIsOlder(int myAge, int myFriendAge) //naming parameters like that is called Camel Case Writing (LikeThat)
+    {
+        if(myAge > myFriendAge) //put breakpoint on this line and see what happens when you try to run the code
+            System.out.println("I am older than my friend!");
+
+        else if (myAge == myFriendAge) //try a breakpoint on this line as well! :)
+            System.out.println("Me and my friend are the same age!");
+
+        else                        //no need for {} after "if" or after "else" here cause it is only 1 line
+            System.out.println("My friend is older than me!");
+    }
+
+    public void forLoopWithDebug()
+    {
+        for(int i=1; i<=10; i++) //Did you know you can write the definition of i inside the loop? well now you know! ;)
+        {
+            System.out.println(i); //put a breakpoint on this line and see what happens.
+                                  // How many times will the program stop?
+        }
+    }
 }
