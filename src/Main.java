@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         //Lesson01
-        System.out.println("Hello World!");
+        //System.out.println("Hello World!");
 
         //checkLesson3();
         //checkLesson4_Q1();
