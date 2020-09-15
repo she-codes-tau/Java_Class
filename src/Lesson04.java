@@ -1,5 +1,6 @@
 public class Lesson04 {
 
+    //Loops
     public void using_for_loop()
     {
         int i, sum=0; //defining both parameters in the same row. Both are type "int" so no need to write "int" again! :)
@@ -23,7 +24,10 @@ public class Lesson04 {
         }
     }
 
-    public void whoIsOlder(int myAge, int myFriendAge) //naming parameters like that is called Camel Case Writing (LikeThat)
+    //-----------------------------------------------------------------------------------------------------------------------
+
+    //Debugging
+    public void whoIsOlder(int myAge, int myFriendAge) //naming parameters like that is called Camel Case Writing (LikeThat).
     {
         if(myAge > myFriendAge) //put breakpoint on this line and see what happens when you try to run the code
             System.out.println("I am older than my friend!");
