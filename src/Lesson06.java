@@ -2,7 +2,7 @@ public class Lesson06 {
 
     public String getBiggerString(String str1, String str2)
     {
-        if(str1.length() > str2.length()) //we don't need to loop inside the strings
+        if(str1.length() > str2.length()) //we don't need to loop inside the strings.
             return str1;                 //we can just write stringName.length() and get the length of that string!
 
         if(str2.length() > str1.length()) //no need to write else here, cause if the condition is true -
