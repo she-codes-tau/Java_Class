@@ -2,6 +2,7 @@ import java.time.LocalDate;
 
 public class Lesson05 {
 
+    //-----------------------Functions------------------------------
     //Question 1
     public boolean isPositive(double num)
     {

@@ -14,6 +14,14 @@ public class Main {
 
         //checkLesson5_Q1();
         //checkLesson5_Q2();
+
+        //checkLesson6_Q1();
+        //checkLesson6_Q2();
+        //checkLesson6_Q3();
+        //checkLesson6_Q4();
+        //checkLesson6_Q5();
+        checkLesson6_Q6();
+
     }
 
     public static void checkLesson3()
@@ -47,7 +55,6 @@ public class Main {
         lesson04.forLoopWithDebug();
     }
 
-
     public static void checkLesson5_Q1()
     {
         double neg_num = -1.25;
@@ -67,6 +74,57 @@ public class Main {
         Lesson05 lesson05 = new Lesson05();
 
         birth = lesson05.getBirthYear("Shani", 26);
+        System.out.println(birth);
+    }
+
+    public static void checkLesson6_Q1()
+    {
+        Lesson06 lesson06 = new Lesson06();
+
+        String str1= "I'm the bigger string!";
+        String str2 = "My dear, I am, without a doubt - the bigger one!";
+
+        String whosIsBigger = lesson06.getBiggerString(str1,str2);
+
+        System.out.println(whosIsBigger);
+    }
+
+    public static void checkLesson6_Q2()
+    {
+        Lesson06 lesson06 = new Lesson06();
+
+        String str1= "Hello";
+        String str2 = "World";
+
+        String combined = lesson06.combineTwoStrings(str1,str2);
+
+        System.out.println(combined);
+    }
+
+    public static void checkLesson6_Q3()
+    {
+        Lesson06 lesson06 = new Lesson06();
+        lesson06.interactWithUser();
+    }
+
+    public static void checkLesson6_Q4()
+    {
+        Lesson06 lesson06 = new Lesson06();
+        int maxNum = lesson06.getBiggerFromUser();
+
+        System.out.println("The maximum of these numbers is: " + maxNum);
+    }
+
+    public static void checkLesson6_Q5()
+    {
+        Lesson06 lesson06 = new Lesson06();
+        lesson06.printInputUntilZero();
+    }
+
+    public static void checkLesson6_Q6()
+    {
+        Lesson06 lesson06 = new Lesson06();
+        lesson06.rollTheDice();
     }
 
 }
