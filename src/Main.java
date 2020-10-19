@@ -20,7 +20,9 @@ public class Main {
         //checkLesson6_Q3();
         //checkLesson6_Q4();
         //checkLesson6_Q5();
-        checkLesson6_Q6();
+        //checkLesson6_Q6();
+
+        checkLesson9();
 
     }
 
@@ -125,6 +127,15 @@ public class Main {
     {
         Lesson06 lesson06 = new Lesson06();
         lesson06.rollTheDice();
+    }
+
+    public static void checkLesson9()
+    {
+        //For more info on inner classes go to: https://www.geeksforgeeks.org/inner-class-java/
+        Lesson09 lesson09 = new Lesson09();
+        Lesson09.TestingPlayerClass lesson09_tester =  lesson09.new TestingPlayerClass();
+
+        lesson09_tester.mainTest();
     }
 
 }
