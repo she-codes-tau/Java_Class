@@ -4,8 +4,29 @@ import java.util.Set;
 public class Lesson07 {
   //Arrays - codility Solution
 
+
+
   public void basicSolution(){
-/*
+    //creating an array
+   int[] arr = {0};
+   //looping through the array, 
+   //first part of the loop:creating an initial index, 
+   //second part of the loop:describing what the loop goes over in the arry.
+   //last part of the loop: what action needs to be done once the loop is over
+    for( int I=0 ; I< arr.length; I++ ){
+     //condition if the array is bigger print the array
+      if (I+1 == arr.length){
+        System.out.println(arr);
+      }
+      //if not...still print the array :D
+      else {
+        System.out.println(arr);
+      }
+    }
+
+
+
+    /*
   //Basic solution
 
     def solution(A):
