@@ -6,6 +6,8 @@ public class Lesson05 {
     //Question 1
     public boolean isPositive(double num)
     {
+        String str;
+
         if(num>=0)
             return true; //no need for {} here because it's only 1 line
 

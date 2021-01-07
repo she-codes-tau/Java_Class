@@ -1,15 +1,17 @@
-package Shecodes;
+//Lesson13_3-ProjectMain
+
+package SheCodesJavaProject;
 
 import java.util.*;
 
-public class Shecodesmain extends FirstSteps {
+public class SheCodesMain extends FirstSteps {
 
 	public static void main(String[] args) {
 		
 		//declaring variables 
-		
-		
-		Shecodesmain registerNewGrad = new Shecodesmain();
+
+
+		SheCodesMain registerNewGrad = new SheCodesMain();
 	
 		Scanner scan=new Scanner(System.in);
 				

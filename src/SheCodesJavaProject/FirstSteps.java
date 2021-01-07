@@ -1,7 +1,8 @@
-package Shecodes;
+//Lesson13_1-FirstSetup
+
+package SheCodesJavaProject;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**This FirstSteps class includes three methods- alumniID, getAlphaNumericString, resume
  */

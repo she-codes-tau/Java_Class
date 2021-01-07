@@ -11,6 +11,7 @@ public class Lesson04 {
         }
 
         System.out.println(sum); //printing the result to the console
+
     }
 
     public void using_while_loop()

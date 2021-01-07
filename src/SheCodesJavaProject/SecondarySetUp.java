@@ -1,4 +1,6 @@
-package Shecodes;
+//Lesson13_2-SecondarySetup
+
+package SheCodesJavaProject;
 
 import java.util.Scanner;
 

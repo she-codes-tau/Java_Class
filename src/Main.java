@@ -22,7 +22,10 @@ public class Main {
         //checkLesson6_Q5();
         //checkLesson6_Q6();
 
-        checkLesson9();
+        //checkLesson9();
+
+        Lesson07_ExtraHomeExercise ls7ex = new Lesson07_ExtraHomeExercise();
+        ls7ex.memoryGame();
 
     }
 

@@ -11,7 +11,7 @@ public class Lesson07 {
    int[] arr = {0};
    //looping through the array, 
    //first part of the loop:creating an initial index, 
-   //second part of the loop:describing what the loop goes over in the arry.
+   //second part of the loop:describing what the loop goes over in the array.
    //last part of the loop: what action needs to be done once the loop is over
     for( int I=0 ; I< arr.length; I++ ){
      //condition if the array is bigger print the array
