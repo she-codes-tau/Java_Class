@@ -5,6 +5,10 @@ public class Main {
         System.out.println("Hello World!");
         System.out.println(" "); //just printing another row for fun :)
 
+        tryLessons();
+    }
+
+    public static void tryLessons(){
         //checkLesson3();
 
         //checkLesson4_Q1();
@@ -24,9 +28,10 @@ public class Main {
 
         //checkLesson9();
 
-        Lesson07_ExtraHomeExercise ls7ex = new Lesson07_ExtraHomeExercise();
-        ls7ex.memoryGame();
+         //Lesson07_ExtraHomeExercise ls7ex = new Lesson07_ExtraHomeExercise();
+        // ls7ex.memoryGame();
 
+        checkLesson13();
     }
 
     public static void checkLesson3()
@@ -139,6 +144,12 @@ public class Main {
         Lesson09.TestingPlayerClass lesson09_tester =  lesson09.new TestingPlayerClass();
 
         lesson09_tester.mainTest();
+    }
+
+    public static void checkLesson13()
+    {
+        Lesson13 lesson13 = new Lesson13();
+        Lesson13.TestingInterfaceImplementation tst = new Lesson13.TestingInterfaceImplementation();
     }
 
 }

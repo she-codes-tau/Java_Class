@@ -22,6 +22,7 @@ public class Lesson04 {
         {
             num = num / 2; //num will now be last num divided by 2
             System.out.println(num); //print result
+            
         }
     }
 

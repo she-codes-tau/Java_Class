@@ -8,9 +8,9 @@ public class Lesson07_ExtraHomeExercise {
         int min = 0;
         int max = 100;
 
-        // creating a new scanner to receive inner input, I called it keyboard because
-        // the user types in using a keyboard.
+        //creating a new scanner to receive inner input, I called it keyboard because the user types in using a keyboard.
         Scanner keyboard = new Scanner(System.in);
+
 
         // create instance of Random class
         Random rand = new Random();
@@ -18,18 +18,19 @@ public class Lesson07_ExtraHomeExercise {
         // Generate random integers in range 0 to 100
         magic_num = rand.nextInt(max - min + 1) + min;
 
-        for (int i = 0; i < 10; i++) {
+        for(int i=0; i<10; i++)
+        {
             System.out.print("Guess the random number: ");
 
             // inserting the scanner method into the int -> get int from user
             guessedNumber = keyboard.nextInt();
             System.out.println();
 
-            if (guessedNumber == magic_num) {
-                System.out
-                        .println("Well Done! The magic number is indeed " + magic_num + ", just like you guessed! :)");
-                i = 11; // if user guessed right - no need to repeat the loop
-            } else if (guessedNumber < magic_num)
+            if(guessedNumber == magic_num){
+                System.out.println("Well Done! The magic number is indeed " + magic_num + ", just like you guessed! :)");
+                i=11; //if user guessed right - no need to repeat the loop
+            }
+            else if(guessedNumber < magic_num)
                 System.out.println("Just a little more... ");
             else if (guessedNumber > magic_num)
                 System.out.println("Just a little less...");
@@ -38,19 +39,18 @@ public class Lesson07_ExtraHomeExercise {
     }
 
     public void memoryGame() {
-        // run this in a different main by creating an object of this class and call
-        // this function. like this:
-        // Lesson07_ExtraHomeExercise l7 = new Lesson07_ExtraHomeExercise();
-        // l7.memoryGame2();
 
-        // creating a new scanner to receive inner input, I called it keyboard because
-        // the user types in using a keyboard.
+        //creating a new scanner to receive inner input, I called it keyboard because the user types in using a keyboard.
         Scanner keyboard = new Scanner(System.in);
         String userAnswer;
         int i, j;
 
-        int cards[][] = { { 1, 5, 2, 8 }, { 3, 1, 4, 3 }, { 4, 8, 5, 2 } };
-        boolean matches[][] = new boolean[3][4];
+
+        int cards[][] = { {1,5,5,8},
+                          {3,1,4,2},
+                          {3,1,4,2}
+                        };
+        boolean matches[][] = new boolean[2][4];
         boolean done = false;
 
         while (!done) {
