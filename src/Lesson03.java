@@ -18,7 +18,14 @@ public class Lesson03{
 		int age = keyboard.nextInt();
 		System.out.println();
 
-		//creating a loop that will find the age and will give different inputs depending on the int value of age.
+		// A loop to make sure user's input is valid (age can not be smaller than 0 or bigger than 120)
+		while(age<0 || age > 120){
+			System.out.print("WRONG! "+name+", how old are you? ");
+			age = keyboard.nextInt();
+			System.out.println();
+		}
+
+		// tell the user what they can do according to their age
 
 		//scenario when an age is smaller than 16
 		if(age<16){
