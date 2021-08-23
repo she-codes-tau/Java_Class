@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static void tryLessons(){
-        //checkLesson3();
+        checkLesson3();
 
         //checkLesson4_Q1();
         //checkLesson4_Q2();
@@ -31,7 +31,7 @@ public class Main {
          //Lesson07_ExtraHomeExercise ls7ex = new Lesson07_ExtraHomeExercise();
         // ls7ex.memoryGame();
 
-        checkLesson13();
+       // checkLesson13();
     }
 
     public static void checkLesson3()

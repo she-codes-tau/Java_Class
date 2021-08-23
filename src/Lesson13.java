@@ -27,6 +27,8 @@ public class Lesson13 {
         public TestingInterfaceImplementation(){
             MyObjectClass myObject = new MyObjectClass("Shani", 1);
             System.out.println("Object name is: " + myObject.GetMyObjectName());
+
+
         }
     }
 
