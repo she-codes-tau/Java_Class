@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static void tryLessons(){
-        checkLesson3();
+        //checkLesson3();
 
         //checkLesson4_Q1();
         //checkLesson4_Q2();
@@ -27,6 +27,8 @@ public class Main {
         //checkLesson6_Q6();
 
         //checkLesson9();
+
+        checkLesson10();
 
          //Lesson07_ExtraHomeExercise ls7ex = new Lesson07_ExtraHomeExercise();
         // ls7ex.memoryGame();
@@ -144,6 +146,14 @@ public class Main {
         Lesson09.TestingPlayerClass lesson09_tester =  lesson09.new TestingPlayerClass();
 
         lesson09_tester.mainTest();
+    }
+
+    public static void checkLesson10()
+    {
+        Lesson10 lesson10 = new Lesson10();
+        Lesson10.TestingTranslatorClass lesson10_tester =  lesson10.new TestingTranslatorClass();
+
+        lesson10_tester.mainTest();
     }
 
     public static void checkLesson13()
