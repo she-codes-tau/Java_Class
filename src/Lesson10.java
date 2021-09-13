@@ -2,6 +2,8 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Lesson10 {
+
+    //Slide27 ex.3
     public class Translator{
         private int num;
         private String numString;
