@@ -49,4 +49,71 @@ public class Lesson04 {
                                   // How many times will the program stop?
         }
     }
+
+    //-----------------------------------------------------------------------------------------------------------------------
+
+    //Print 'X' Shape to screen (from quiz)
+    public void printX_for5()
+    {
+        int num = 5;
+        for(int i=0; i<num; i++){ // outer loop - rows
+            if(i==0 || i==num-1){
+                for(int j=0; j<num; j++){ // inner loop for 1st and last rows
+                    if(j==0 || j==num-1){
+                        System.out.print("*");
+                    }
+                    else {
+                        System.out.print(" ");
+                    }
+                }
+            }
+            else if(i==1 || i==num-2){
+                for(int j=0; j<num; j++){ // inner loop for 2st and 1 before last rows
+                    if(j==1 || j==num-2){
+                        System.out.print("*");
+                    }
+                    else {
+                        System.out.print(" ");
+                    }
+                }
+            }
+            else {
+                for(int j=0; j<num; j++){ // inner loop for middle row
+                    if(j == num/2){
+                        System.out.print("*");
+                    }
+                    else {
+                        System.out.print(" ");
+                    }
+                }
+            }
+            System.out.println("");
+        }
+    }
+
+    //Print 'X' Shape to screen (Extra - Generic)
+    public void printX()
+    {
+        int num = 7;
+
+        int left = 0;
+        int right = num-1;
+
+        for(int i=0; i<num; i++){ // outer loop - rows
+            left = i;
+
+            for(int j=0; j<num; j++){ // inner loop - deals with the chars in each row
+                if(j==left || j==right) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            left++;
+            right--;
+            System.out.println("");
+        }
+    }
+
 }

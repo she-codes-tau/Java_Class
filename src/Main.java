@@ -15,6 +15,7 @@ public class Main {
         //checkLesson4_Q2();
         //checkLesson4_Q3();
         //checkLesson4_Q4();
+        //checkLesson4_Quiz();
 
         //checkLesson5_Q1();
         //checkLesson5_Q2();
@@ -28,7 +29,7 @@ public class Main {
 
         //checkLesson9();
 
-        checkLesson10();
+        //checkLesson10();
 
          //Lesson07_ExtraHomeExercise ls7ex = new Lesson07_ExtraHomeExercise();
         // ls7ex.memoryGame();
@@ -65,6 +66,12 @@ public class Main {
     {
         Lesson04 lesson04 = new Lesson04();
         lesson04.forLoopWithDebug();
+    }
+
+    public static void checkLesson4_Quiz()
+    {
+        Lesson04 lesson04 = new Lesson04();
+        lesson04.printX();
     }
 
     public static void checkLesson5_Q1()
